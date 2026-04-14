@@ -25,7 +25,6 @@ Build a SQL model that produces an **agent performance summary**.
 
 Taylor mentioned these areas of interest:
 - How fast agents respond (TTFR)
-- How long it takes to fully resolve tickets (Full Resolution Time)
 - Whether agents solve tickets in a single touch (First Touch Solve)
 - Whether we are meeting SLAs
 
