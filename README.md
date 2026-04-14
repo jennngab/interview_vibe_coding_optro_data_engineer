@@ -33,10 +33,9 @@ psql -d your_database -f setup/seed.sql
 
 | Table | Rows | Description |
 |-------|------|-------------|
-| `zendesk.organizations` | 5 | Customer companies |
-| `zendesk.users` | 30 | Admins, agents (human + AI), end-users |
-| `zendesk.tickets` | 100 | Support tickets |
-| `zendesk.ticket_audits` | 500 | All ticket events as JSONB |
-| `zendesk.ticket_fields` | 200 | Custom attributes per ticket |
+| `zendesk.organizations` | 3 | Customer companies |
+| `zendesk.users` | 23 | Admins, agents (human + AI), end-users |
+| `zendesk.tickets` | 50 | Support tickets |
+| `zendesk.ticket_audits` | 150 | All ticket events as JSONB |
 
 > **Tip:** The `ticket_audits.events` column is a JSONB array. Each element is either a `"Change"` event (status, assignee) or a `"Comment"` event (public or private). This is where most of the interesting logic lives.
